@@ -1,0 +1,3 @@
+17-03-2024,Primer Libro,Sebastian,17-03-2024,000-00-00,Segunda Edicion,Español,1,Sin Prestar,17-03-2024,17-03-2024,Activo
+18-03-2024,Segundo Libro,Sebastian,18-03-2024,000-00-01,Primera Edicion,Español,1,Prestado,18-03-2024,28-03-2024,Inactivo
+18-03-2024,Tercer Libro,Sebastian,18-03-2024,000-00-02,Segunda Edicion,Español,2,Sin Prestar,18-03-2024,18-03-2024,Activo

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.libraryproject.HelloController" stylesheets="@styleLibrary.css">
+    <!-- imagenes de diseño para la primera ventana-->
+    <children>
+        <ImageView fitWidth="690.0" fitHeight="400.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="200.0">
+            <image>
+                <Image url="@recursos/tecMorelia.png" />
+            </image>
+        </ImageView>
+        <ImageView fitWidth="90.0" fitHeight="40.0" AnchorPane.leftAnchor="340.0" AnchorPane.topAnchor="60.0">
+            <image>
+                <Image url="@recursos/relojTec.png" />
+            </image>
+        </ImageView>
+    </children>
+
+    <!-- Datos del lado izquierdo de la pantalla -->
+
+    <Text fx:id="companyTheme" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="50.0" styleClass="big-Theme"/>
+    <Text fx:id="companySubTheme" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="100.0" styleClass="big-SubTheme"/>
+
+    <!-- Datos del lado derecho de la pantalla -->
+
+    <Label fx:id="loginText" AnchorPane.topAnchor="100.0" AnchorPane.rightAnchor="100.0" styleClass="big-Theme" />
+    <Label fx:id="userText" AnchorPane.topAnchor="215.0" AnchorPane.rightAnchor="390.0" styleClass="big-SubTheme"/>
+    <Label fx:id="passwordText" AnchorPane.topAnchor="315.0" AnchorPane.rightAnchor="350.0" styleClass="big-SubTheme"/>
+    <TextField fx:id="userField" prefWidth="250.0" prefHeight="60.0" AnchorPane.topAnchor="200.0" AnchorPane.rightAnchor="80.0" styleClass="pref-AssignData"/>
+    <PasswordField fx:id="passwordField" prefWidth="250.0" prefHeight="60.0" AnchorPane.topAnchor="300.0" AnchorPane.rightAnchor="80.0" styleClass="pref-AssignData"/>
+    <Button fx:id="loginBotton" text="Login" onAction="#setLoginBotton" AnchorPane.topAnchor="420.0" AnchorPane.rightAnchor="120.0" styleClass="pref-Boton"/>
+
+</AnchorPane>

@@ -1,0 +1,115 @@
+/* Color de la pantalla en forma de degradado de dos colores */
+.root{
+    -fx-background-color: linear-gradient(to right, white, gray);
+}
+
+/* Estilo del titutlo de la biblioteca de la primera ventana */
+.big-Theme{
+    -fx-font-size: 45px;
+    -fx-font-family: "Bernard MT Condensed";
+    -fx-text-fill: black;
+}
+
+/* Estilo del titulo de la biblioteca en la segunda ventana*/
+.big-Theme-Second{
+    -fx-font-size: 35px;
+    -fx-font-family: "Bernard MT Condensed";
+    -fx-text-fill: black;
+}
+
+/* Estilo del texto dedicado a los clientes en la primera ventana*/
+.big-SubTheme{
+    -fx-font-size: 20px;
+    -fx-font-family: "Britannic Bold";
+    -fx-text-fill: black;
+}
+
+/* Estilo del ingreso de datos del usuario*/
+.pref-AssignData{
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-width: 0 0 2 0;
+    -fx-padding: 5px;
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 20px;
+}
+
+/* Estilo de los titulos de las secciones de ingreso en la segunda ventana */
+.pref-Theme-Label{
+    -fx-font-size: 15px;
+    -fx-font-family: "Bernard MT Condensed";
+    -fx-text-fill: black;
+}
+
+/* Estilo del boton Login en la primera ventana*/
+.pref-Boton {
+    -fx-font-size: 15px;
+    -fx-font-family: "Bernard MT Condensed";
+    -fx-pref-height: 40px;
+    -fx-pref-width: 150px;
+    -fx-background-radius: 30px;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+/* Estilo del boton por si pasa el cursor en el login*/
+.pref-Boton:hover{
+    -fx-background-color: #4b4a4a;
+}
+
+/* Estilo para los botones Sing Off y Refresh */
+.pref-Boton-SingOff-Refresh{
+    -fx-font-size: 15px;
+    -fx-font-family: "Bernard MT Condensed";
+    -fx-background-radius: 30px;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+/* Estilo del boton por si pasa el cursor en el Sing Off*/
+.pref-Boton-SingOff-Refresh:hover{
+    -fx-background-color: #595858;
+}
+
+/* Estilo de los botones Save y Add de la segunda ventana */
+.pref-Boton-Save-Add{
+    -fx-font-size: 15px;
+    -fx-font-family: "Bernard MT Condensed";
+    -fx-background-radius: 30px;
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+}
+
+/* Estilo del boton por si pasa el cursor en Save o Add*/
+.pref-Boton-Save-Add:hover{
+    -fx-background-color: #0066ff;
+}
+
+/* Estilo de los botones Modify, Lend y To Find de la segunda ventana */
+.pref-Boton-Modify-Lend-ToFind{
+    -fx-font-size: 15px;
+    -fx-font-family: "Bernard MT Condensed";
+    -fx-background-radius: 30px;
+    -fx-background-color: green;
+    -fx-text-fill: white;
+}
+
+/* Estilo del boton por si pasa el cursor en Modify, Lend o To Find*/
+.pref-Boton-Modify-Lend-ToFind:hover{
+    -fx-background-color: #01a101;
+}
+
+/* Estilo del boton Delete */
+.pref-Boton-Delete{
+    -fx-font-size: 15px;
+    -fx-font-family: "Bernard MT Condensed";
+    -fx-background-radius: 30px;
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}
+
+/* Estilo del boton por si pasa el cursor en el Delete*/
+.pref-Boton-Delete:hover{
+    -fx-background-color: #fd5656;
+}
